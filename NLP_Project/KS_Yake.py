@@ -1,8 +1,7 @@
-import yake
 from yake import KeywordExtractor
 
 
-def YAKE_AL(text):
+def YAKE_ALL(text):
     kw_extractor = KeywordExtractor()
     print(kw_extractor)
     keywords = kw_extractor.extract_keywords(text)
@@ -19,7 +18,7 @@ if __name__=="__main__":
 "Reached by phone, Kaggle co-founder CEO Anthony Goldbloom declined to deny that the acquisition is happening. "\
 "Google itself declined 'to comment on rumors'. Kaggle, which has about half a million data scientists on its platform, "\
 "was founded by Goldbloom  and Ben Hamner in 2010. """
-    YAKE_AL(text)	
+    YAKE_ALL(text)	
 
 
 
