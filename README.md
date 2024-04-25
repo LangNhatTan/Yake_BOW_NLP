@@ -1,3 +1,4 @@
+# AI Project
 # NLP Project
 # Description
 + This project use Yake algorihtm to extract keyword from document. Besides, our team also use Bag Of Words (BOW) to solve problem find information in document. The result will show in tkinter. Input is a document and output if you click get keywords is a list keyword and
