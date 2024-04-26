@@ -28,7 +28,7 @@ def main():
                 doc = ''.join(text + " " for text in tokens[idx: idx + key_size])
                 vector = vectorizer.fit_transform([doc, key_input])
                 cosine = cosine_similarity(vector[0], vector[1])
-                if cosine == 1.0: 
+                if cosine == 1.0 or cosine == 0.9999999999999998: 
                     accepted.append(idx)
                     idx += key_size - 1
                 idx += 1
